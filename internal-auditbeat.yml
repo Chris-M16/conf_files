@@ -162,7 +162,7 @@ output.elasticsearch:
   ssl.enable: true
   ssl.verification_mode: none
   #ssl.certificate_authorities: ["/etc/ssl/certs/elasticsearch-ca.pem"]
-  #pipeline: "?"
+  pipeline: "auditbeat-lc"
 
   # Protocol - either `http` (default) or `https`.
   #protocol: "https"
