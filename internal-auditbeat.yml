@@ -160,7 +160,7 @@ output.elasticsearch:
   protocol: "https"
   api_key: "yZzd-XgBzs3QgEQQDxwE:zQjdDgvOSrm958pUQz2hxg"
   ssl.enable: true
-  ssl.certificate_authorities: ["/etc/ssl/certs/elasticsearch-ca.pem"]
+  #ssl.certificate_authorities: ["/etc/ssl/certs/elasticsearch-ca.pem"]
   #pipeline: "?"
 
   # Protocol - either `http` (default) or `https`.
