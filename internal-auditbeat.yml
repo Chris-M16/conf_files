@@ -160,6 +160,7 @@ output.elasticsearch:
   protocol: "https"
   api_key: "yZzd-XgBzs3QgEQQDxwE:zQjdDgvOSrm958pUQz2hxg"
   ssl.enable: true
+  ssl.verification_mode: none
   #ssl.certificate_authorities: ["/etc/ssl/certs/elasticsearch-ca.pem"]
   #pipeline: "?"
 
